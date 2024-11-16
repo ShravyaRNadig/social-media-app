@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Social Media App</h1>
+
+        <!-- User Creation Form -->
+        <section id="user-form">
+            <h2>Create a User</h2>
+            <input type="text" id="user-name" placeholder="Name" required>
+            <input type="email" id="user-email" placeholder="Email" required>
+            <button id="create-user-btn">Create User</button>
+        </section>
+
+        <!-- Post Creation Form -->
+        <section id="post-form">
+            <h2>Create a Post</h2>
+            <input type="text" id="post-user-id" placeholder="User ID" required>
+            <textarea id="post-content" placeholder="Write something..." required></textarea>
+            <button id="create-post-btn">Create Post</button>
+        </section>
+
+        <!-- Users List -->
+        <section id="users-list">
+            <h2>Users</h2>
+            <ul id="users"></ul>
+        </section>
+
+        <!-- Posts List -->
+        <section id="posts-list">
+            <h2>Posts</h2>
+            <ul id="posts"></ul>
+        </section>
+    </div>
+
+    <!-- Modal for Popup Messages -->
+    <div id="popup-modal" class="popup-modal">
+        <div class="popup-content">
+            <span id="popup-close-btn" class="popup-close-btn">&times;</span>
+            <p id="popup-message"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

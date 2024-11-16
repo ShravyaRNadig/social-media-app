@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "name": "User 1",
+      "email": "user1@example.com",
+      "id": 1731752378578
+    },
+    {
+      "name": "User 2",
+      "email": "user2@example.com",
+      "id": 1731752583050
+    },
+    {
+      "name": "User 3",
+      "email": "user3@example.com",
+      "id": 1731752742572
+    }
+  ],
+  "posts": [
+    {
+      "userId": "1",
+      "content": "User 1 Post",
+      "id": 1731752396708
+    },
+    {
+      "userId": "2",
+      "content": "User 2 Post",
+      "id": 1731752687934
+    },
+    {
+      "userId": "3",
+      "content": "User 3 Post",
+      "id": 1731752745035
+    }
+  ]
+}
